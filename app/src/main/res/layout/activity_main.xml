@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/button1"
+            android:onClick="playPhrases"
+            android:text="Hello"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="hello"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:onClick="playPhrases"
+            android:text="Thank You"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="thank_you"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:onClick="playPhrases"
+            android:text="Excuse me"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="excuse_me"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:onClick="playPhrases"
+            android:text="I'm sorry"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="im_sorry"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:onClick="playPhrases"
+            android:text="Good Morning"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="good_morning"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:onClick="playPhrases"
+            android:text="Goodbye"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="goodbye"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:onClick="playPhrases"
+            android:text="Where is ... ?"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="where_is"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:onClick="playPhrases"
+            android:text="How much is it?"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="how_much_is_it"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:onClick="playPhrases"
+            android:text="Where is the\nbathroom?"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="where_is_the_bathroom"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:onClick="playPhrases"
+            android:text="What do you\nrecommend?"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            android:tag="what_do_you_recommend"/>
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
